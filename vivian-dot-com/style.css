@@ -1,0 +1,100 @@
+.about {
+  width: 50%;
+  padding: 5px;
+}
+
+h1{
+  font-size: 50px;
+  /* color: darksalmon; */
+  color: black;
+  font-family: Segoe UI;
+}
+
+h2{
+  font-family: Segoe UI;
+  color: grey;
+  font-size: 30px;
+}
+
+p{
+  font-size: 25px;
+  font-family: courier new;
+  color:black;
+}
+
+body{
+  background-color: whitesmoke;
+  /* border: 6px solid darkgrey; */
+}
+
+button {
+  font-size: 18px;
+  font-family: Segoe UI;
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+
+  opacity: 0.8;
+  transition: 0.2s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+a{
+  /* gets rid of purple underline for links */
+  text-decoration: none;
+  color: white;
+}
+
+img{
+  height:300px;
+}
+
+/* FADE IN */
+
+.fade-in-text {
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* END OF FADE IN */
