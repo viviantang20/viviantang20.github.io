@@ -18,7 +18,8 @@ h2{
 
 p{
   font-size: 25px;
-  font-family: courier new;
+  font-family: Andale Mono, monospace;
+  /* font-family: courier new; */
   color:black;
 }
 
